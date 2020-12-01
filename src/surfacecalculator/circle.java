@@ -11,5 +11,22 @@ public class circle extends squere {
     public double computeS(){
         return this.a*this.a*Math.PI;
     }
+    @Override
+    public void draw(){
+        System.out.println("                                   ");
+        System.out.println("             ////////              ");
+        System.out.println("         ////////////////          ");
+        System.out.println("      //////////////////////       ");
+        System.out.println("     ////////////////////////      ");
+        System.out.println("    //////////////////////////     ");
+        System.out.println("    //////////////////////////     ");
+        System.out.println("    //////////////////////////     ");
+        System.out.println("     ////////////////////////      ");
+        System.out.println("      //////////////////////       ");
+        System.out.println("         ////////////////          ");
+        System.out.println("             ////////              ");
+        System.out.println("                                   ");
+        
+    }
     
 }

@@ -15,5 +15,14 @@ public class squere {
     public double computeS(){
         return this.a*this.a;
     }
+    public void draw(){
+        for (int i=0 ;i<this.a;i++){
+            System.out.print("  ");
+            for (int j=0 ;j<this.a*2;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
     
 }

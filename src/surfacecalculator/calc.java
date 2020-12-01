@@ -13,5 +13,7 @@ public class calc {
     public static void surface(squere s){
         System.out.println("surface is :"+s.computeS()+" cm2");
     }
-    
+    public static void draw(squere s) {
+        s.draw();
+    }
 }
